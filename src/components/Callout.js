@@ -1,8 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-class Call_to_Action extends React.Component {
+class Callout extends React.Component {
   constructor(props){
     console.log("hello")
     super(props)
@@ -37,15 +35,16 @@ class Call_to_Action extends React.Component {
   render() {
     console.log("hello")
     return (
-        <section class="content-section bg-primary text-white">
+        <section class="callout">
         <div class="container text-center">
-          <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-          <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-          <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
+          <h2 class="mx-auto mb-5">Welcome to
+            <em>your</em>
+            next website!</h2>
+          <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
         </div>
       </section>
     );
   }
 }
 
-export default Call_to_Action;
+export default Callout;

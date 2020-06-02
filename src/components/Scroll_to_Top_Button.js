@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 class Scroll_to_Top_Button extends React.Component {
   constructor(props){
